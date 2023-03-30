@@ -1,0 +1,22 @@
+package javacode_03_18_2023;
+
+public class Moreloops {
+
+	public static void main(String[] args) {
+		
+		
+		for(int i=2; i<=5; i++) {
+		
+		
+		System.out.print("* ");
+	
+	
+	}
+	System.out.println();
+
+	}
+	
+}
+
+
+

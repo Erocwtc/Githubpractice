@@ -1,0 +1,17 @@
+package com.Facebook.Dropdown.Menu;
+
+public class MethodsOfJava {
+	
+	//Methods are also known as functions
+	//Methods are known as independent units of execution
+	//access modifier static/nonstatic retun type name of the method()
+
+
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

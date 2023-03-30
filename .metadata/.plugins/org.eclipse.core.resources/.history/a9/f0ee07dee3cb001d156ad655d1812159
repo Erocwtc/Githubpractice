@@ -1,0 +1,15 @@
+package com.Facebook.Dropdown.Menu;
+
+public class MethodsOfJava {
+	
+	//Methods are also known as functions
+
+
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

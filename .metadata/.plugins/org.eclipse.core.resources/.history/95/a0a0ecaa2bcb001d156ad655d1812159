@@ -1,0 +1,16 @@
+package com.Facebook.Dropdown.Menu;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Advancedxpath03_25_2023 {
+	public WebDriver driver;
+	public Select select;
+
+	@BeforeMethod
+	public void openUrl() {
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();	
+		driver.get("https://tutorialsninja.com");
+}

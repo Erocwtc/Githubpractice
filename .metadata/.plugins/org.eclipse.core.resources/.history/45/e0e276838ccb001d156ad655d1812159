@@ -1,0 +1,23 @@
+package com.Facebook.Dropdown.Menu;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeMethod;
+
+public class CreateTwitteraccount {
+
+		public WebDriver driver;
+		public Select select; 
+	
+	
+	@BeforeMethod
+	public void OpenTwitter() {
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("www.twitter.com");
+		
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.Facebook.Dropdown.Menu;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class CreateTwitteraccount {
+
+		public WebDriver driver;
+		public Select select; 
+	
+	
+	@BeforeMethod
+	public void OpenTwitter() {
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://twitter.com/");
+		
+		
+	}
+	@Test
+	public void ClickOnCreate() {
+		driver.findElement(By.cssSelector("div.css-901oao r-1awozwy r-18jsvk2 r-6koalj r-18u37iz r-16y2uox r-37j5jr r-a023e6 r-b88u0q r-1777fci r-rjixqe r-bcqeeo r-q4m81j r-qvutc0\" style=\"\"><span class=\"css-901oao css-16my406 css-1hf3ou5 r-poiln3 r-a023e6 r-rjixqe r-bcqeeo r-qvutc0\"><span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0")).click();
+	}
+
+}
